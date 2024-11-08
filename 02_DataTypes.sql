@@ -1,11 +1,8 @@
 -- Data Types
 
 -- Data type of a column defines which type of data can be stored in the table
-
 -- Defined at the creation of table
-
 -- Data types are mainly classified into 3 Categories
-
 -- String - char, varchar, etc
 -- Numeric - int, float, bool, etc
 -- Date and time - date, datetime, etc
@@ -18,8 +15,6 @@
 -- varchar: variable length string that can contain numbers, letters, and special characters
 -- date: date format YYYY-MM-DD
 -- datetime: date & time combination, format is YYYY-MM-DD hh:mm:ss
-
-
 
 
 -- Primary and Foreign Keys 
@@ -47,3 +42,13 @@ CREATE TABLE table_name (
     column3 datatype constraint,
     ....
 );
+
+-- Commonly used Constraints in SQL:
+
+-- NOT NULL - Ensures that a column cannot have a NULL value
+-- UNIQUE - Ensures all values in a column are different
+-- PRIMARY KEY - A combination of NOT NULL and UNIQUE, used to uniquely identify each row
+-- FOREIGN KEY - Prevents actions that would destroy links between tables, used to link multiple tables
+-- CHECK - Ensures values in a column satisfy a specific condition
+-- DEFAULT - Sets a default value for a column if no value is specified
+-- CREATE INDEX - Used to create and retrieve data from the database very quickly
