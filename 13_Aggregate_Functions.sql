@@ -38,7 +38,6 @@ SELECT MIN(column_name) FROM table_name;
 -- Example
 SELECT MIN(marks) FROM Student_marks;
 
-
 -- ROUND()
 -- Syntax
 SELECT ROUND(column_name, decimal_places) FROM table_name;
