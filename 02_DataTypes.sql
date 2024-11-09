@@ -23,10 +23,23 @@
 -- A primary key uniquely identifies each row in a table.
 -- Each table can have only one PK, which must be unique and NOT NULL.
 
+-- Example
+CREATE TABLE Departments (
+    DepartmentID INT PRIMARY KEY,
+    DepartmentName VARCHAR(100) NOT NULL
+);
+
 -- Foreign Key (FK)
 -- A foreign key links two tables together.
 -- A table can have multiple FKs, which can include duplicate and NULL values.
 
+-- Example
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY,
+    EmployeeName VARCHAR(100) NOT NULL,
+    DepartmentID INT,
+    FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID)
+);
 
 -- Constraints
 
