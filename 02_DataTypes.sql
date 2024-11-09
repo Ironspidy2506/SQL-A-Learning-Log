@@ -1,54 +1,51 @@
 -- Data Types
 
--- Data type of a column defines which type of data can be stored in the table
--- Defined at the creation of table
--- Data types are mainly classified into 3 Categories
--- String - char, varchar, etc
--- Numeric - int, float, bool, etc
--- Date and time - date, datetime, etc
+-- The data type of a column defines the type of data that can be stored in a table.
+-- Specified at table creation, data types fall into three main categories:
 
--- Commonly Used data types in SQL:
--- int: used for the integer value
--- float: used to specify a decimal point number
--- bool: used to specify Boolean values true and false
--- char: fixed length string that can contain numbers, letters, and special characters
--- varchar: variable length string that can contain numbers, letters, and special characters
--- date: date format YYYY-MM-DD
--- datetime: date & time combination, format is YYYY-MM-DD hh:mm:ss
+-- 1. String (e.g., char, varchar)
+-- 2. Numeric (e.g., int, float, bool)
+-- 3. Date and Time (e.g., date, datetime)
+
+-- Commonly Used Data Types in SQL:
+-- int: Stores integer values
+-- float: Stores decimal values
+-- bool: Stores Boolean values (true or false)
+-- char: Fixed-length string (letters, numbers, and special characters)
+-- varchar: Variable-length string (letters, numbers, and special characters)
+-- date: Stores dates in YYYY-MM-DD format
+-- datetime: Stores date and time in YYYY-MM-DD hh:mm:ss format
 
 
--- Primary and Foreign Keys 
+-- Primary and Foreign Keys
 
--- Primary Key (pk)
--- A primary key is a unique column we set in a table to easily identify and locate data in queries
--- A table can have only 1 pk, which should be unique and NOT NULL
+-- Primary Key (PK)
+-- A primary key uniquely identifies each row in a table.
+-- Each table can have only one PK, which must be unique and NOT NULL.
 
--- Foreign Key (fk)
--- A foreign key is a column used to link two or more tables together
--- A table can have any numnber of fk, can contain duplicate and null values
+-- Foreign Key (FK)
+-- A foreign key links two tables together.
+-- A table can have multiple FKs, which can include duplicate and NULL values.
 
 
 -- Constraints
 
--- Constraints are used to specify rules for data in a table
--- This ensures the accuracy and reliability of the data in the table
--- Constraints can be specified when the table is created with the CREATE TABLE statement, or
--- after the table is created with the ALTER TABLE statement
+-- Constraints define rules for data in a table to maintain accuracy and reliability.
+-- Constraints can be applied at table creation (using CREATE TABLE) or later (using ALTER TABLE).
 
--- Syntax
+-- Syntax:
 CREATE TABLE table_name (
     column1 datatype constraint,
     column2 datatype constraint,
     column3 datatype constraint,
-    ....
+    ...
 );
 
--- Commonly used Constraints in SQL:
-
--- NOT NULL - Ensures that a column cannot have a NULL value
--- UNIQUE - Ensures all values in a column are different
--- PRIMARY KEY - A combination of NOT NULL and UNIQUE, used to uniquely identify each row
--- FOREIGN KEY - Prevents actions that would destroy links between tables, used to link multiple tables
--- CHECK - Ensures values in a column satisfy a specific condition
--- DEFAULT - Sets a default value for a column if no value is specified
--- CREATE INDEX - Used to create and retrieve data from the database very quickly
+-- Commonly Used Constraints in SQL:
+-- NOT NULL: Ensures that a column cannot store NULL values
+-- UNIQUE: Ensures all values in a column are unique
+-- PRIMARY KEY: Combines NOT NULL and UNIQUE, uniquely identifying each row
+-- FOREIGN KEY: Links tables and enforces relationships between them
+-- CHECK: Ensures values in a column meet specific conditions
+-- DEFAULT: Sets a default value for a column if no value is specified
+-- CREATE INDEX: Creates an index to retrieve data quickly from the database

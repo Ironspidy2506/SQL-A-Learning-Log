@@ -1,40 +1,40 @@
--- What is SQL?
--- (SQL) Structured Query Language is a Programming language to interact with databases.
+-- Introduction to SQL
+-- SQL (Structured Query Language) is a programming language designed to interact with databases.
 
--- Uses of SQL
--- CRUD - Create, Read, Update, Delete
+-- Primary Uses of SQL:
+-- - CRUD Operations: Create, Read, Update, Delete
 
--- SQL Applications
--- Since the development of database every industry keeps the data in the database and hence to interact with databases SQL is needed
+-- Applications of SQL:
+-- SQL is essential in industries where data needs to be stored, accessed, and manipulated, as most data is kept in databases.
 
--- What is Database
--- Database is a system which allows user to store and organise data
+-- What is a Database?
+-- A database is a system that allows users to store and organize data efficiently.
 
--- Why use Database
--- To store, manipulate or access the data
+-- Why Use a Database?
+-- Databases are used to store, manipulate, and retrieve data quickly and reliably.
 
--- Types of Database
--- RDBMS - Data is stored in the form of tables (Ex-MySQL, SQL, Oracle)
--- NoSQL - Data is stored in the form of key value pairs (Ex-MongoDB)
+-- Types of Databases:
+-- - RDBMS (Relational Database Management System): Data is stored in tables.
+--   Examples: MySQL, SQL Server, Oracle
 
--- Excel VS SQL
+-- - NoSQL: Data is stored as key-value pairs.
+--   Examples: MongoDB
 
--- Excel
+-- SQL vs Excel
 
--- Small amount of data
--- One time analysis
--- Quick Chart/Graph
--- Untrained Person
+-- Excel:
+-- - Best for small datasets
+-- - Ideal for one-time analysis
+-- - Quick to create charts/graphs
+-- - Suitable for users without database training
 
--- Database
+-- SQL/Database:
+-- - Handles large datasets efficiently
+-- - Supports real-time data storage
+-- - Easily combines with other datasets
+-- - Allows reusable automated steps
+-- - Provides safe access and data integrity
+-- - Offers deep search capabilities
 
--- Large amount of data
--- Real time data can be stored
--- Easily combine with different datasets
--- Automate steps and can re-use
--- Easy and Safe Access
--- Data Integrity
--- Deep Search Capabilities
-
-
--- We can create database diagram for better understanding how tables are related to each other
+-- Database Diagrams
+-- Creating database diagrams can help visualize the relationships between tables, making it easier to understand and work with the database.
