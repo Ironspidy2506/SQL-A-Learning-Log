@@ -27,7 +27,7 @@ SELECT EXTRACT(MONTH FROM date_field) FROM table_name;
 -- YEAR
 -- QUARTER
 -- MONTH
--- WEEk
+-- WEEK
 -- DAY
 -- HOUR
 -- MINUTE
